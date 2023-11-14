@@ -30,6 +30,8 @@
         <property name = "productService" ref = "productService" />
     </bean>
 
+    <bean id="concertDaysUntilAttributeHandler" class="concerttours.attributehandlers.ConcertDaysUntilAttributeHandler"/>
+
 
 	<!--
 	The hybris platform provides one single Spring application context for beans located at the jalo layer.
